@@ -63,7 +63,7 @@ def home(request):
         'projects': projects,
         'certs': certs,
         'seminars': seminars,
-        'recommendations': recommendations
+        'recommendations': recommendations,
     }
     return render(request, 'contents/portfolio.html', context)
 
